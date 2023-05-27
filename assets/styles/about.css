@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nav {
+  background-color: rgb(233, 236, 239);
+  width: 100%;
+  height: 45px;
+}
+
+#navicons {
+  margin-top: 15px;
+  margin-left: 6px;
+}
+
+#navicons2 {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#navtext {
+  display: inline-block;
+}
+
+#navtext2 {
+  display: inline-block;
+  position: relative;
+  left: 500px;
+}
+
+.mainnavbar {
+  background-color: transparent;
+}
+
+.btn {
+  margin-top: 10px;
+  float: right;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  background: none;
+  border: none;
+}
+
+.shape {
+  opacity: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  transition: 0.2s;
+  right: 0px;
+}
+
+#arrow {
+  transition: 0.4s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.searchbar {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#mainnavicons {
+  cursor: pointer;
+  margin-left: 13px;
+  float: right;
+  position: relative;
+  left: -20px;
+  top: 10px;
+  font-size: x-large;
+}
+
+.searchbar {
+  margin-top: 10px;
+  margin-left: 500px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sct1 {
+  background-color: rgb(255, 254, 254);
+  text-align: left;
+}
+
+#sct1hdr {
+  margin-top: 70px;
+  margin-left: 400px;
+  font-size: 20px;
+}
+
+#sct1hdr2 {
+  margin-top: 10px;
+  margin-left: 400px;
+  font-size: 70px;
+}
+
+#sct1txt {
+  margin-top: 20px;
+  margin-left: 400px;
+  font-size: 20px;
+}
+
+#hr {
+  margin-left: 70px;
+  margin-top: 80px;
+  width: 150px;
+}
+
+.sct1alltexts {
+  position: absolute;
+  top: 150px;
+}
+
+#sct2img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 300px;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+#sct2hdr {
+  margin-left: 400px;
+  font-size: 20px;
+}
+
+#sct2hdr2 {
+  margin-top: 10px;
+  margin-left: 400px;
+  font-size: 70px;
+}
+
+.sct2alltexts {
+  position: relative;
+  top: -85px;
+}
+
+#sct3hdr {
+  margin-left: 550px;
+  font-size: 20px;
+}
+
+#sct3hdr2 {
+  margin-top: 10px;
+  margin-left: 550px;
+  font-size: 40px;
+}
+
+#sct2txt {
+  margin-top: 20px;
+  margin-left: 550px;
+  font-size: 20px;
+}
+
+.sct3alltexts {
+  position: relative;
+  top: -350px;
+}
+
+#sct4img {
+  float: right;
+  max-width: 100%;
+  max-height: 100%;
+  width: 400px;
+  margin-left: 90px;
+  margin-top: 30px;
+  position: relative;
+  top: -125px;
+  left: -200px;
+}
+
+#sct4hdr {
+  margin-left: 90px;
+  font-size: 20px;
+}
+
+#sct4hdr2 {
+  margin-top: 10px;
+  margin-left: 90px;
+  font-size: 40px;
+}
+
+#sct4txt {
+  margin-top: 20px;
+  margin-left: 90px;
+  font-size: 20px;
+}
+
+.sct4alltexts {
+  position: relative;
+  top: -100px;
+}
+
+.sct5 {
+  background-color: rgb(232, 236, 238);
+  width: 100%;
+  height: 400px;
+}
+
+#sct5txt {
+  margin-top: 100px;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 150px;
+}
+
+#sct5hdr {
+  position: relative;
+  top: 80px;
+  margin-left: 150px;
+  font-size: 50px;
+}
+
+.sct5alltexts {
+  margin-top: 30px;
+  position: relative;
+  top: -270px;
+  left: 700px;
+}
+
+.scndtxt {
+  position: relative;
+  top: -76px;
+  left: 400px;
+}
+
+.thrdtxt {
+  position: relative;
+  top: -76px;
+  left: 400px;
+}
+
+#sct6img {
+  margin-top: 60px;
+  margin-left: 100px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 700px;
+  width: 300px;
+}
+
+.sct6alltexts {
+  position: relative;
+  top: -280px;
+  left: 490px;
+}
+
+#sct6authtext {
+  margin-top: 15px;
+  letter-spacing: 2px;
+}
+
+#sct6txt {
+  margin-top: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 210px);
+}
+
+.grid > article img {
+  max-width: 100%;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.text {
+  padding: 0 20px 20px;
+}/*# sourceMappingURL=about.css.map */
