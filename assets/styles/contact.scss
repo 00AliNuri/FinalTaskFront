@@ -29,7 +29,7 @@ body {
   left: 500px;
 }
 .mainnavbar {
-    background-color: transparent;
+  background-color: transparent;
 }
 .btn {
   margin-top: 10px;
@@ -96,46 +96,294 @@ li a {
   max-height: 100%;
   width: 100%;
 }
-#links{
-    position: relative;
-    left: 40%;
+#links {
+  position: relative;
+  left: 40%;
 }
-.sct1alltexts{
-    position: absolute;
-    top: 30%;
-    left: 40%;
+.sct1alltexts {
+  position: absolute;
+  top: 30%;
+  left: 40%;
 }
-#sct1hdr{
-    font-size: 70px;
+#sct1hdr {
+  font-size: 70px;
 }
-.sct2alltexts{
+.sct2alltexts {
   margin-top: 10%;
-    margin-left: 16%;
+  margin-left: 16%;
 }
-.sct2txt2{
-    position: relative;
-    top: -113px;
-    left: 265px;
+.sct2txt2 {
+  position: relative;
+  top: -113px;
+  left: 265px;
 }
-.sct2txt3{
+.sct2txt3 {
   position: relative;
   top: -228px;
   left: 660px;
 }
-#sct2txts{
+#sct2txts {
   margin-top: 10px;
 }
-.map{
-  background-color: rgba(232,237,239,255);
+.map {
+  background-color: rgba(232, 237, 239, 255);
   width: 100%;
   height: 800px;
   position: relative;
   top: -120px;
 }
-iframe{
+iframe {
   max-width: 100%;
   max-height: 100%;
-  width: 800px;
+  width: 705px;
   height: 800px;
   min-height: 500px;
+}
+#maphdr {
+  position: relative;
+  top: -700px;
+  left: 870px;
+  font-size: 70px;
+}
+#maptxts {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.allmaptexts {
+  position: relative;
+  top: -710px;
+  left: 870px;
+}
+#maplocationtext {
+  position: relative;
+  top: -77px;
+  left: 240px;
+}
+#mapemailtext {
+  position: relative;
+  top: -97px;
+  left: 440px;
+}
+#maphdr3 {
+  display: block;
+  position: relative;
+  top: 60px;
+  left: -125px;
+}
+hr {
+  position: relative;
+  left: -120px;
+  width: 700px;
+}
+#sct3input {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+#sct3input1 {
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+$primary: #202528;
+$secondary: #202528;
+$white: #fff;
+$gray: #9b9b9b;
+.form__group {
+  position: relative;
+  top: -330px;
+  left: 545px;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+.form__group1 {
+  position: relative;
+  top: -395px;
+  left: 950px;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+.form__group2 {
+  position: relative;
+  top: -300px;
+  left: 545px;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+.form__field {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 1px solid $gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field1 {
+  font-family: inherit;
+  width: 105%;
+  border: 0;
+  border-bottom: 1px solid $gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field2 {
+  margin-top: 10px;
+  font-family: inherit;
+  width: 105%;
+  height: 100px;
+  border: 0;
+  border-bottom: 1px solid $gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: $gray;
+}
+
+.form__field:focus, .form__field1:focus, .form__field2:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: $primary;
+    font-weight: 700;
+  }
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, $primary, $secondary);
+  border-image-slice: 1;
+}
+/* reset input */
+.form__field {
+  &:required,
+  &:invalid {
+    box-shadow: none;
+  }
+}
+#sct3hdr{
+  margin-left: 90px;
+  position: relative;
+  top: -60px;
+  font-size: 90px;
+  font-weight: 900;
+}
+#sct3icons{
+  margin-top: 15px;
+  margin-left: 20px;
+  position: relative;
+  top: -60px;
+  left: 80px;
+  font-size: 35px;
+}
+#btn1{
+  position: relative;
+  top: -251px;
+  left: 545px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgba(188,172,118,255);
+  color: rgba(188,172,118,255);
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+#btn1:hover{
+  color: #202528;
+  transition: 0.3s;
+  background-color:rgba(188,172,118,255);
+}
+
+.sct10 {
+  margin-top: -140px;
+  width: 100%;
+  background-color: rgba(249, 248, 250, 255);
+  height: 250px;
+}
+#left {
+  text-align: left;
+  position: relative;
+  left: 250px;
+}
+#right {
+  text-align: right;
+  position: relative;
+  top: -19px;
+  left: -250px;
+}
+.moneysct {
+  position: relative;
+  top: -50px;
+  left: 200px;
+}
+.percentsct {
+  position: relative;
+  top: -100px;
+  left: 450px;
+}
+.usersct {
+  position: relative;
+  top: -150px;
+  left: 650px;
+}
+.sctrtxts {
+  top: 100px;
+  position: relative;
+  left: 25%;
+}
+#plchldr {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.footertxt1 {
+  position: relative;
+  top: -134px;
+  left: 110px;
+}
+.footertxt2 {
+  position: relative;
+  top: -266px;
+  left: 240px;
+}
+.allftrtxts {
+  position: relative;
+  top: -128px;
+  left: 750px;
+}
+.footerfrsttxtx {
+  margin-top: 100px;
+  margin-left: 250px;
+}
+.lastfooter {
+  position: relative;
+  top: -200px;
 }

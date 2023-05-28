@@ -159,7 +159,279 @@ li a {
 iframe {
   max-width: 100%;
   max-height: 100%;
-  width: 800px;
+  width: 705px;
   height: 800px;
   min-height: 500px;
+}
+
+#maphdr {
+  position: relative;
+  top: -700px;
+  left: 870px;
+  font-size: 70px;
+}
+
+#maptxts {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.allmaptexts {
+  position: relative;
+  top: -710px;
+  left: 870px;
+}
+
+#maplocationtext {
+  position: relative;
+  top: -77px;
+  left: 240px;
+}
+
+#mapemailtext {
+  position: relative;
+  top: -97px;
+  left: 440px;
+}
+
+#maphdr3 {
+  display: block;
+  position: relative;
+  top: 60px;
+  left: -125px;
+}
+
+hr {
+  position: relative;
+  left: -120px;
+  width: 700px;
+}
+
+#sct3input {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+#sct3input1 {
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.form__group {
+  position: relative;
+  top: -330px;
+  left: 545px;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__group1 {
+  position: relative;
+  top: -395px;
+  left: 950px;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__group2 {
+  position: relative;
+  top: -300px;
+  left: 545px;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 1px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field1 {
+  font-family: inherit;
+  width: 105%;
+  border: 0;
+  border-bottom: 1px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field2 {
+  margin-top: 10px;
+  font-family: inherit;
+  width: 105%;
+  height: 100px;
+  border: 0;
+  border-bottom: 1px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus, .form__field1:focus, .form__field2:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  -o-border-image: linear-gradient(to right, #202528, #202528);
+     border-image: linear-gradient(to right, #202528, #202528);
+  border-image-slice: 1;
+}
+.form__field:focus ~ .form__label, .form__field1:focus ~ .form__label, .form__field2:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #202528;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+  box-shadow: none;
+}
+
+#sct3hdr {
+  margin-left: 90px;
+  position: relative;
+  top: -60px;
+  font-size: 90px;
+  font-weight: 900;
+}
+
+#sct3icons {
+  margin-top: 15px;
+  margin-left: 20px;
+  position: relative;
+  top: -60px;
+  left: 80px;
+  font-size: 35px;
+}
+
+#btn1 {
+  position: relative;
+  top: -251px;
+  left: 545px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgb(188, 172, 118);
+  color: rgb(188, 172, 118);
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+#btn1:hover {
+  color: #202528;
+  transition: 0.3s;
+  background-color: rgb(188, 172, 118);
+}
+
+.sct10 {
+  margin-top: -140px;
+  width: 100%;
+  background-color: rgb(249, 248, 250);
+  height: 250px;
+}
+
+#left {
+  text-align: left;
+  position: relative;
+  left: 250px;
+}
+
+#right {
+  text-align: right;
+  position: relative;
+  top: -19px;
+  left: -250px;
+}
+
+.moneysct {
+  position: relative;
+  top: -50px;
+  left: 200px;
+}
+
+.percentsct {
+  position: relative;
+  top: -100px;
+  left: 450px;
+}
+
+.usersct {
+  position: relative;
+  top: -150px;
+  left: 650px;
+}
+
+.sctrtxts {
+  top: 100px;
+  position: relative;
+  left: 25%;
+}
+
+#plchldr {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.footertxt1 {
+  position: relative;
+  top: -134px;
+  left: 110px;
+}
+
+.footertxt2 {
+  position: relative;
+  top: -266px;
+  left: 240px;
+}
+
+.allftrtxts {
+  position: relative;
+  top: -128px;
+  left: 750px;
+}
+
+.footerfrsttxtx {
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.lastfooter {
+  position: relative;
+  top: -200px;
 }/*# sourceMappingURL=contact.css.map */
