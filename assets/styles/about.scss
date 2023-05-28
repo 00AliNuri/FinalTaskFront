@@ -5,6 +5,7 @@
 }
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .nav {
   background-color: rgba(233, 236, 239, 255);
@@ -276,7 +277,7 @@ li a {
   width: 100%;
   height: 300px;
 }
-#sct8img{
+#sct8img {
   margin-top: 100px;
   position: relative;
   left: 12%;
@@ -285,11 +286,11 @@ li a {
   width: 100px;
   margin-left: 100px;
 }
-#sct9hdr{
+#sct9hdr {
   margin-top: 30px;
   text-align: center;
 }
-#sct9txt{
+#sct9txt {
   margin-top: 20px;
   margin-left: 140px;
   display: inline-block;
@@ -301,7 +302,7 @@ li a {
   background-color: rgba(249, 248, 250, 255);
   height: 250px;
 }
-#left{
+#left {
   text-align: left;
   position: relative;
   left: 250px;
@@ -357,7 +358,7 @@ li a {
   margin-top: 100px;
   margin-left: 250px;
 }
-.lastfooter{
+.lastfooter {
   position: relative;
   top: -200px;
 }

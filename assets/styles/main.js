@@ -17,3 +17,4 @@ myBtn.addEventListener('click', ()=>{
     myArrow.style.transform = state
     state = state == 'rotate(180deg)' ? 'rotate(360deg)' : 'rotate(180deg)'
 })
+
