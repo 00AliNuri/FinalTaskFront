@@ -56,3 +56,19 @@ const nextSlide = () => {
   slides[slideNumber].classList.add("current");
 };
 
+
+document.addEventListener('DOMContentLoaded', () =>
+  requestAnimationFrame(updateTime)
+)
+
+function updateTime() {
+  // Replace the following lines with your desired values for the "day" and "hour"
+  const customDay = "14";
+  const customHour = "23";
+
+  document.documentElement.style.setProperty('--timer-day', "'" + customDay + "'");
+  document.documentElement.style.setProperty('--timer-hours', "'" + customHour + "'");
+  document.documentElement.style.setProperty('--timer-minutes', "'" + moment().format("mm") + "'");
+  document.documentElement.style.setProperty('--timer-seconds', "'" + moment().format("ss") + "'");
+  requestAnimationFrame(updateTime);
+}
