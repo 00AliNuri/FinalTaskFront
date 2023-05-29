@@ -4,6 +4,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 .nav {
   background-color: rgb(233, 236, 239);
   width: 100%;
@@ -95,4 +100,248 @@ li a {
   margin-left: 500px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.main {
+  margin-top: -20px;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+.main .slider {
+  position: relative;
+  height: 700px;
+  width: 100%;
+}
+
+.main .slider .slides {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.main .slider .slides.current {
+  z-index: 1;
+  opacity: 1;
+}
+
+.main .slider .slides:nth-child(1) {
+  background: url("/assets/images/4.PNG");
+  background-size: 450px;
+  background-position: right;
+  margin-left: -100px;
+  margin-top: -100px;
+  background-repeat: no-repeat;
+}
+
+.main .slider .slides:nth-child(2) {
+  background: url("/assets/images/3.PNG");
+  background-size: 450px;
+  background-position: right;
+  margin-left: -100px;
+  margin-top: -100px;
+  background-repeat: no-repeat;
+}
+
+.main .slider .slides:nth-child(3) {
+  background: url("/assets/images/2.PNG");
+  background-size: 450px;
+  background-position: right;
+  margin-left: -100px;
+  margin-top: -100px;
+  background-repeat: no-repeat;
+}
+
+.main .slider .slides h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin-left: -500%;
+  transition: 0.3s linear;
+  color: #202528;
+}
+
+.main .slider .slides.current h1 {
+  position: relative;
+  left: -240px;
+  animation: animateHeading 0.3s linear forwards 1;
+  animation-delay: 0.2s;
+}
+
+@keyframes animateHeading {
+  to {
+    margin-left: 0;
+  }
+}
+.main .slider .slides p {
+  margin-left: -700px;
+  color: #202528;
+  letter-spacing: 5px;
+  margin-right: -500%;
+  transition: 0.3s linear;
+}
+
+.main .slider .slides.current p {
+  margin-left: -700px;
+  animation: animateparagraph 0.3s linear forwards 1;
+  letter-spacing: 5px;
+  animation-delay: 0.2s;
+}
+
+@keyframes animateparagraph {
+  to {
+    margin-right: 0;
+  }
+}
+.main .prev {
+  position: fixed;
+  color: black;
+  top: 45%;
+  left: 5%;
+  transform: translateY(-50%);
+  z-index: 99;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 10px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.main .next {
+  position: fixed;
+  color: black;
+  top: 45%;
+  right: 5%;
+  transform: translateY(-50%);
+  z-index: 99;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 10px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#btn1 {
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+  left: -370px;
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgb(188, 172, 118);
+  color: rgb(188, 172, 118);
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+#btn1:hover {
+  color: #202528;
+  transition: 0.3s;
+  background-color: rgb(188, 172, 118);
+}
+
+#h1left {
+  position: relative;
+  left: -352px;
+}
+
+#slidestxt2 {
+  line-height: 30px;
+  margin-left: -418px;
+  letter-spacing: 0px;
+}
+
+#slideshdr {
+  margin-left: -610px;
+}
+
+#slideshdr2 {
+  position: relative;
+  left: -350px;
+}
+
+.sct2 {
+  margin-left: 150px;
+  color: #202528;
+}
+
+#sct2img {
+  cursor: pointer;
+  margin-top: 70px;
+  width: 350px;
+}
+
+.sct2alltexts:hover {
+  margin-left: 60px;
+  transition: 0.2s;
+  scale: 1.1;
+}
+
+#pricetxt {
+  color: #202528;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+#shopnowtxt {
+  margin-left: 25px;
+  color: black;
+  margin-top: 15px;
+}
+
+#sct2hdr {
+  margin-left: 25px;
+  font-size: 30px;
+}
+
+#sct2hdr2 {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+#sct2txt2 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+#sct2img2 {
+  cursor: pointer;
+  margin-top: 70px;
+  width: 550px;
+}
+
+.sct2alltexts2 {
+  cursor: pointer;
+  position: relative;
+  top: -605px;
+  left: 550px;
+}
+
+.sct2alltexts2:hover {
+  margin-left: 20px;
+  transition: 0.2s;
+  scale: 1.1;
+}
+
+.sct2img2txts {
+  position: relative;
+  top: -464px;
+  left: -108px;
 }/*# sourceMappingURL=style.css.map */

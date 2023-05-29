@@ -264,7 +264,9 @@ $gray: #9b9b9b;
   color: $gray;
 }
 
-.form__field:focus, .form__field1:focus, .form__field2:focus {
+.form__field:focus,
+.form__field1:focus,
+.form__field2:focus {
   ~ .form__label {
     position: absolute;
     top: 0;
@@ -287,14 +289,14 @@ $gray: #9b9b9b;
     box-shadow: none;
   }
 }
-#sct3hdr{
+#sct3hdr {
   margin-left: 90px;
   position: relative;
   top: -60px;
   font-size: 90px;
   font-weight: 900;
 }
-#sct3icons{
+#sct3icons {
   margin-top: 15px;
   margin-left: 20px;
   position: relative;
@@ -302,7 +304,7 @@ $gray: #9b9b9b;
   left: 80px;
   font-size: 35px;
 }
-#btn1{
+#btn1 {
   position: relative;
   top: -251px;
   left: 545px;
@@ -310,15 +312,15 @@ $gray: #9b9b9b;
   width: 200px;
   height: 40px;
   background-color: transparent;
-  border: 1px solid rgba(188,172,118,255);
-  color: rgba(188,172,118,255);
+  border: 1px solid rgba(188, 172, 118, 255);
+  color: rgba(188, 172, 118, 255);
   font-weight: bolder;
   letter-spacing: 2px;
 }
-#btn1:hover{
+#btn1:hover {
   color: #202528;
   transition: 0.3s;
-  background-color:rgba(188,172,118,255);
+  background-color: rgba(188, 172, 118, 255);
 }
 
 .sct10 {

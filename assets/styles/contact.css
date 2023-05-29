@@ -297,7 +297,9 @@ hr {
   color: #9b9b9b;
 }
 
-.form__field:focus, .form__field1:focus, .form__field2:focus {
+.form__field:focus,
+.form__field1:focus,
+.form__field2:focus {
   padding-bottom: 6px;
   font-weight: 700;
   border-width: 3px;
@@ -305,7 +307,9 @@ hr {
      border-image: linear-gradient(to right, #202528, #202528);
   border-image-slice: 1;
 }
-.form__field:focus ~ .form__label, .form__field1:focus ~ .form__label, .form__field2:focus ~ .form__label {
+.form__field:focus ~ .form__label,
+.form__field1:focus ~ .form__label,
+.form__field2:focus ~ .form__label {
   position: absolute;
   top: 0;
   display: block;
