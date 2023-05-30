@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script defer src="assets/styles/main.js"></script>
     <script defer src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js'></script>
@@ -160,10 +161,10 @@
       <img id="sct3img" src="assets/images/bg2.PNG" alt="">
       <div class="sct3alltexts">
         <div class="sct3halfoftexts">
-      <p>DEAL OF THE WEEK</p>
-      <h1>Black and white Nordegg</h1>
+      <p id="dealtxt">DEAL OF THE WEEK</p>
+      <h1 id="sct3hdr">Black and white Nordegg</h1>
       <h1>chairs</h1>
-      <p>$129.00</p>
+      <p id="sct3pricetxt">$129.00</p>
       <button id="btn2">%50 off</button>
     </div>
       <div class="clock-container">
@@ -171,40 +172,191 @@
           <p class="clock-day clock-timer">
           </p>
           <p class="clock-label">
-            Day
+            days
           </p>
         </div>
         <div class="clock-col">
           <p class="clock-hours clock-timer">
           </p>
           <p class="clock-label">
-            Hours
+            hours
           </p>
         </div>
         <div class="clock-col">
           <p class="clock-minutes clock-timer">
           </p>
           <p class="clock-label">
-            Minutes
+            minutes
           </p>
         </div>
         <div class="clock-col">
           <p class="clock-seconds clock-timer">
           </p>
           <p class="clock-label">
-            Seconds
+            seconds
           </p>
         </div>
       </div>
-
       <div class="sct3halfoftexts">
       <button id="btn3">SHOP NOW</button>
     </div>
     </div>
     </div>
 
+        <!-- Section 4 -->
+        <div class="sct4">
+          <h1 id="sct4hdr">New Arrivals</h1>
+          <p id="sct4txt">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible <br> vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and <br> divided by arches into stiff sections</p>
+          <p id="navsct4">All Products</p>
+          <p id="navsct4">Chairs</p>
+          <p id="navsct4">Books</p>
+          <p id="navsct4">Clothes</p>
+          <p id="navsct4">Accessories</p>
+          <p id="sct4nav2">All Products</p>
+          <main class="grid" data-aos="zoom-in">
+            <article>
+              <img src="assets/images/chair.jpg" alt="">
+              <div class="text">
+                <h3>Norwegg chair</h3>
+                <p>$40.00</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/images/book.jpg" alt="">
+              <div class="text">
+                <h3>Book</h3>
+                <p>$40.00</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/images/chair2.jpg" alt="">
+              <div class="text">
+                <h3>Another chair</h3>
+                <p>$40.00</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/images/chair3.jpg" alt="">
+              <div class="text">
+                <h3>Your new chair</h3>
+                <p>$40.00</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/images/clock.jpg" alt="">
+              <div class="text">
+                <h3>Clock</h3>
+                <p>$40.00</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/images/clock3.jpg" alt="">
+              <div class="text">
+                <h3>Clock</h3>
+                <p>$40.00</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/images/box.jpg" alt="">
+              <div class="text">
+                <h3>Accessory box</h3>
+                <p>$40.00</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/images/box2.jpg" alt="">
+              <div class="text">
+                <h3>Beige</h3>
+                <p>$40.00</p>
+              </div>
+            </article>
+          </main>
+        </div>
 
-   
+        <!-- Section 5 -->
+        <div class="sct5">
+          <img id="sct5img" src="assets/images/bg3.PNG" alt="">
+          <button id="btn5">START SHOPPING</button>
+        </div>
+
+
+
+        <!-- Footer Section -->
+        <div class="footer">
+        <div class="sctrtxts">
+          <i id="footericons" class="fa-solid fa-truck-fast"></i>
+          <h5>Free shipping & return</h5>
+          <h5>Free Shipping over $300</h5>
+    
+          <div class="moneysct">
+          <i  id="footericons"  class="fa-solid fa-comments-dollar"></i>
+          <h5>Money back guarantee</h5>
+          <h5>30 Days Money Back Guarantee</h5>
+        </div>
+    
+        <div class="percentsct">
+          <i  id="footericons"  class="fa-solid fa-percent"></i>
+          <h5>Best prices</h5>
+          <h5>Always the best prices</h5>
+        </div>
+    
+        <div class="usersct">
+          <i  id="footericons"  class="fa-solid fa-user-plus"></i>
+          <h5>020-800-456-747</h5>
+          <h5>24/7 Available Support</h5>
+        </div>
+      </div>
+        </div>
+    
+        <div class="footersct">
+          <div class="footerfrsttxtx">
+          <h3>Be in touch</h3>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> At itaque temporibus.</p>
+          <input id="plchldr" placeholder="Your Email Adress" type="text"><i class="fa-regular fa-envelope"></i>
+          <br>
+        </div>
+          <div class="allftrtxts">
+          <h3>Shop</h3>
+          <br>
+          <p>For Women <br>
+            For Men <br>
+            Stores <br> 
+            Our Blog <br>
+            Shop</p>
+    
+            <div class="footertxt1">
+              <h3>Company</h3>
+              <br>
+            <p>Login <br>
+              Register <br>
+              Wishlist <br>
+              Our Products <br>
+              Checkouts</p>
+            </div>
+    
+            <div class="footertxt2">
+              <h3>Your account</h3>
+              <br>
+              <p>Login <br>
+                Register <br>
+                Wishlist <br>
+                Our Products <br>
+                Checkouts</p>
+              </div>
+            </div>
+    
+              <div class="lastfooter">
+                <p id="left">© 2020 Your company. All rights reserved.</p>
+                <p id="right">Terms & Conditions Privacy & cookies Accessibility Customer Data Promise</p>
+              </div>
+        </div>
+      </div>
 
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
+

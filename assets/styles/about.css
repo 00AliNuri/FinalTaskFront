@@ -427,4 +427,10 @@ li a {
 .lastfooter {
   position: relative;
   top: -200px;
+}
+
+#footericons {
+  position: relative;
+  top: 20px;
+  left: -31px;
 }/*# sourceMappingURL=about.css.map */

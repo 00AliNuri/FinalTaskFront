@@ -62,7 +62,6 @@ document.addEventListener('DOMContentLoaded', () =>
 )
 
 function updateTime() {
-  // Replace the following lines with your desired values for the "day" and "hour"
   const customDay = "14";
   const customHour = "23";
 
