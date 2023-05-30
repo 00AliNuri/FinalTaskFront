@@ -18,7 +18,7 @@ myBtn.addEventListener("click", () => {
 });
 
 
-
+//Slider
 window.onload = function () {
   const prevBtn = document.getElementById("prev");
   const nextBtn = document.getElementById("next");
@@ -56,11 +56,12 @@ const nextSlide = () => {
   slides[slideNumber].classList.add("current");
 };
 
-
 document.addEventListener('DOMContentLoaded', () =>
   requestAnimationFrame(updateTime)
 )
+//Slider
 
+//Counter
 function updateTime() {
   const customDay = "14";
   const customHour = "23";
@@ -71,3 +72,4 @@ function updateTime() {
   document.documentElement.style.setProperty('--timer-seconds', "'" + moment().format("ss") + "'");
   requestAnimationFrame(updateTime);
 }
+//Counter

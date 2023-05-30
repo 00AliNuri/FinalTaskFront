@@ -10,7 +10,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <script src="assets/styles/main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script defer src="assets/styles/main.js"></script>
 </head>
 <body>
     <div class="nav">
@@ -66,9 +67,9 @@
       </div>
     </div>
 
-    <div class="sct2">
+    <div class="sct2" >
     </style>
-    <main class="grid">
+    <main class="grid" data-aos="zoom-in">
       <article>
         <img src="assets/images/christopher-campbell-28571-unsplash.jpg" alt="Sample photo">
         <div class="text">
@@ -210,4 +211,10 @@
           </div>
     </div>
 </body>
+
+  <!-- AOS Connection -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
