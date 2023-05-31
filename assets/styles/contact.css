@@ -420,62 +420,58 @@ hr {
 #left {
   text-align: left;
   position: relative;
+  top: -85px;
   left: 250px;
+  color: #868e96;
 }
 
 #right {
   text-align: right;
   position: relative;
-  top: -19px;
+  top: -109px;
   left: -250px;
+  color: #868e96;
 }
 
 .moneysct {
   position: relative;
-  top: -50px;
-  left: 200px;
+  top: -65px;
+  left: 250px;
 }
 
 .percentsct {
   position: relative;
-  top: -100px;
-  left: 450px;
+  top: -121px;
+  left: 550px;
 }
 
 .usersct {
   position: relative;
-  top: -150px;
-  left: 650px;
+  top: -177px;
+  left: 800px;
 }
 
 .sctrtxts {
   top: 100px;
   position: relative;
-  left: 25%;
-}
-
-#plchldr {
-  width: 200px;
-  height: 50px;
-  border: none;
-  border-bottom: 1px solid black;
+  left: 20%;
 }
 
 .footertxt1 {
   position: relative;
-  top: -134px;
-  left: 110px;
+  top: -125px;
+  left: 150px;
 }
 
 .footertxt2 {
   position: relative;
-  top: -266px;
-  left: 240px;
+  top: -250px;
+  left: 350px;
 }
 
 .allftrtxts {
   position: relative;
-  top: -128px;
+  top: -153px;
   left: 750px;
 }
 
@@ -491,6 +487,94 @@ hr {
 
 #footericons {
   position: relative;
-  top: 20px;
-  left: -31px;
+  top: 25px;
+  left: -50px;
+  font-size: x-large;
+}
+
+.footersct {
+  color: #202528;
+}
+
+#footertxt3 {
+  font-weight: 400;
+  color: #868e96;
+}
+
+.footerfrsttxtx h3 {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.footerfrsttxtx p {
+  color: #868e96;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.allftrtxts p {
+  color: #868e96;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.form__group5 {
+  position: relative;
+  top: 1px;
+  left: 1px;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+#formicons {
+  position: relative;
+  top: 25px;
+  left: 140px;
+  font-size: x-large;
+}
+
+.form__field5 {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 1px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  position: relative;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  -o-border-image: linear-gradient(to right, #202528, #202528);
+     border-image: linear-gradient(to right, #202528, #202528);
+  border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #202528;
+  font-weight: 700;
+}
+
+.form__field:required, .form__field:invalid {
+  box-shadow: none;
 }/*# sourceMappingURL=contact.css.map */
