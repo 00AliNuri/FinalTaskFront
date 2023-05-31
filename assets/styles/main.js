@@ -19,6 +19,42 @@ myBtn.addEventListener("click", () => {
 
 
 //Slider
+const prevIcon = document.getElementById("prev");
+const nextIcon = document.getElementById("next");
+
+const handleScroll = () => {
+  const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  
+  if (scrollPosition > 0) {
+    prevIcon.style.opacity = "0";
+    nextIcon.style.opacity = "0";
+  } else {
+
+    prevIcon.style.opacity = "1";
+    nextIcon.style.opacity = "1";
+  }
+};
+
+window.addEventListener("scroll", handleScroll);
+
+const slideInterval = 4000; 
+
+
+const autoSlide = () => {
+  nextSlide();
+};
+
+let autoSlideTimer = setInterval(autoSlide, slideInterval);
+
+const resetAutoSlideTimer = () => {
+  clearInterval(autoSlideTimer);
+  autoSlideTimer = setInterval(autoSlide, slideInterval);
+};
+
+window.addEventListener("scroll", resetAutoSlideTimer);
+window.addEventListener("click", resetAutoSlideTimer);
+
+
 window.onload = function () {
   const prevBtn = document.getElementById("prev");
   const nextBtn = document.getElementById("next");
@@ -29,6 +65,7 @@ window.onload = function () {
   nextBtn.addEventListener("click", function () {
     nextSlide();
   });
+  
 };
 let slideNumber = 0;
 const prevSlide = () => {
@@ -60,6 +97,8 @@ document.addEventListener('DOMContentLoaded', () =>
   requestAnimationFrame(updateTime)
 )
 //Slider
+
+
 
 //Counter
 function updateTime() {
