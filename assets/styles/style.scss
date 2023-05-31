@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -31,9 +31,12 @@ body {
   display: inline-block;
 }
 #navtext2 {
+  color: #202528;
   display: inline-block;
   position: relative;
-  left: 500px;
+  left: 30%;
+  font-weight: 400;
+  font-size: 13px;
 }
 .btn {
   position: relative;
@@ -89,8 +92,20 @@ li a:hover{
   color: #202528;
 }
 .searchbar {
+  font-weight: 300;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #868e96;
+}
+#searchicon{
+  font-size: larger;
+  font-weight: 600;
+  position: relative;
+  left: -30px;
+}
+ul input::placeholder {
+  font-weight: 300;
+  color: #868e96;
+  opacity: 1; /* Firefox */
 }
 #mainnavicons {
   cursor: pointer;
@@ -262,11 +277,11 @@ li a:hover{
 }
 #slidestxt2 {
   line-height: 30px;
-  margin-left: -418px;
+  margin-left: -360px;
   letter-spacing: 0px;
 }
 #slideshdr {
-  margin-left: -610px;
+  margin-left: -625px;
 }
 #slideshdr2 {
   position: relative;
@@ -289,7 +304,7 @@ li a:hover{
   scale: 1.1;
 }
 #pricetxt {
-  color: #202528;
+  color: rgba(134,142,150,255);
   margin-top: 10px;
   margin-left: 25px;
 }
@@ -298,6 +313,7 @@ li a:hover{
   color: black;
   margin-top: 15px;
   letter-spacing: 2px;
+  font-weight: bolder;
 }
 #sct2hdr {
   margin-left: 25px;
@@ -307,7 +323,14 @@ li a:hover{
   margin-top: 15px;
   font-size: 30px;
 }
+#sct2hdr1{
+  color: #868e96;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  font-size: 15px;
+}
 #sct2txt2 {
+  color: #868e96;
   margin-top: 15px;
   font-size: 20px;
 }
@@ -363,7 +386,7 @@ li a:hover{
   font-size: 30px;
 }
 #pricetxt2 {
-  color: #202528;
+  color: rgba(134,142,150,255);
   margin-top: 10px;
   margin-left: 25px;
 }
@@ -372,6 +395,7 @@ li a:hover{
   color: black;
   margin-top: 15px;
   letter-spacing: 2px;
+  font-weight: bolder;
 }
 
 // Image 4 Container
@@ -558,6 +582,7 @@ li a:hover{
   top: -500px;
 }
 .sct3halfoftexts {
+  margin-top: -10px;
   margin-left: 150px;
 }
 #dealtxt {
@@ -566,9 +591,11 @@ li a:hover{
   font-weight: 700;
 }
 #sct3hdr {
+  color: #202528;
   margin-top: 20px;
 }
 #sct3pricetxt {
+  color: rgba(134,142,150,255);
   margin-top: 20px;
 }
 .grid {
@@ -588,6 +615,11 @@ li a:hover{
   cursor: pointer;
   color: #202528;
   padding: 0 20px 20px;
+}
+.text p{
+  font-size: 14px;
+  color: #868e96;
+  font-weight: 500;
 }
 #sct4hdr {
   margin-left: 130px;
@@ -625,7 +657,7 @@ li a:hover{
   text-transform: uppercase;
   letter-spacing: 4px;
   position: absolute;
-  right: 19%;
+  right: 16%;
   margin-top: 20px;
   cursor: pointer;
   display: inline;
@@ -638,7 +670,7 @@ li a:hover{
 }
 #sct5img {
   position: absolute;
-  top: 520%;
+  top: 535%;
   margin-left: 100px;
   width: 1200px;
   max-width: 100%;
@@ -646,7 +678,7 @@ li a:hover{
 }
 #btn5 {
   position: relative;
-  top: -780px;
+  top: -820px;
   left: 580px;
   cursor: pointer;
   width: 210px;
@@ -669,33 +701,36 @@ li a:hover{
 #left {
   text-align: left;
   position: relative;
+  top: -85px;
   left: 250px;
+  color: #868e96;
 }
 #right {
   text-align: right;
   position: relative;
-  top: -19px;
+  top: -109px;
   left: -250px;
+  color: #868e96;
 }
 .moneysct {
   position: relative;
-  top: -50px;
-  left: 200px;
+  top: -65px;
+  left: 250px;
 }
 .percentsct {
   position: relative;
-  top: -100px;
-  left: 450px;
+  top: -133px;
+  left: 550px;
 }
 .usersct {
   position: relative;
-  top: -150px;
-  left: 650px;
+  top: -200px;
+  left: 800px;
 }
 .sctrtxts {
   top: 100px;
   position: relative;
-  left: 25%;
+  left: 20%;
 }
 #plchldr {
   width: 200px;
@@ -705,17 +740,17 @@ li a:hover{
 }
 .footertxt1 {
   position: relative;
-  top: -134px;
-  left: 110px;
+  top: -167px;
+  left: 150px;
 }
 .footertxt2 {
   position: relative;
-  top: -266px;
-  left: 240px;
+  top: -334px;
+  left: 350px;
 }
 .allftrtxts {
   position: relative;
-  top: -128px;
+  top: -186px;
   left: 750px;
 }
 .footerfrsttxtx {
@@ -728,9 +763,90 @@ li a:hover{
 }
 #footericons {
   position: relative;
-  top: 20px;
-  left: -31px;
+  top: 25px;
+  left: -50px;
+  font-size: x-large;
 }
 .footersct {
   color: #202528;
+}
+#footertxt3{
+  font-weight: 400;
+  color: #868e96;
+}
+.footerfrsttxtx h3{
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.footerfrsttxtx p{
+  color: #868e96;
+  font-weight: 500;
+  font-size: 13px;
+}
+.allftrtxts p{
+  color: #868e96;
+  font-weight: 400;
+  font-size: 15px;
+}
+$primary: #202528;
+$secondary: #202528;
+$white: #fff;
+$gray: #9b9b9b;
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+#formicons{
+  position: relative;
+  top: 30px;
+  left: 130px;
+  font-size: x-large;
+}
+.form__field {
+  font-family: inherit;
+  width: 50%;
+  border: 0;
+  border-bottom: 1px solid $gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  position: relative;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: $gray;
+}
+
+.form__field:focus{
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: $primary;
+    font-weight: 700;
+  }
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, $primary, $secondary);
+  border-image-slice: 1;
+}
+
+.form__field {
+  &:required,
+  &:invalid {
+    box-shadow: none;
+  }
 }

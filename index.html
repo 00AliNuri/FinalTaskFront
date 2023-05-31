@@ -17,6 +17,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <script defer src="assets/styles/main.js"></script>
     <script defer src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js'></script>
@@ -56,7 +59,7 @@
             <li><a href="">Pages<i id="angle" class="fa-solid fa-angle-down" style="color: #343b41"></i></a></li>
             <li><a href="">Docs<i id="angle" class="fa-solid fa-angle-down" style="color: #343b41"></i></a></li>
             <input class="searchbar" placeholder="Search" type="text">
-          <i class="fa-solid fa-magnifying-glass" style="color: #343b41"></i>
+          <i id="searchicon" class="fa-solid fa-magnifying-glass" style="color: #343b41"></i>
           
           <i id="mainnavicons" class="fa-solid fa-bars-staggered" style="color: #343b41"></i>
           <i id="mainnavicons" class="fa-regular fa-heart" style="color: #343b41"></i>
@@ -93,7 +96,7 @@
 
     <!-- Section 2 -->
     <div class="sct2">
-      <p>TOP CHOICES</p>
+      <p id="sct2hdr1">TOP CHOICES</p>
       <h3 id="sct2hdr2">Popular this week</h3>
       <p id="sct2txt2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
 
@@ -220,7 +223,6 @@
               <div class="text">
                 <h3>Norwegg chair</h3>
                 <p>$40.00</p>
-
               </div>
             </article>
             <article>
@@ -288,24 +290,24 @@
         <div class="sctrtxts">
           <i id="footericons" class="fa-solid fa-truck-fast"></i>
           <h5>Free shipping & return</h5>
-          <h5>Free Shipping over $300</h5>
+          <h5 id="footertxt3">Free Shipping over $300</h5>
     
           <div class="moneysct">
           <i  id="footericons"  class="fa-solid fa-comments-dollar"></i>
           <h5>Money back guarantee</h5>
-          <h5>30 Days Money Back Guarantee</h5>
+          <h5 id="footertxt3">30 Days Money Back Guarantee</h5>
         </div>
     
         <div class="percentsct">
           <i  id="footericons"  class="fa-solid fa-percent"></i>
           <h5>Best prices</h5>
-          <h5>Always the best prices</h5>
+          <h5 id="footertxt3">Always the best prices</h5>
         </div>
     
         <div class="usersct">
           <i  id="footericons"  class="fa-solid fa-user-plus"></i>
           <h5>020-800-456-747</h5>
-          <h5>24/7 Available Support</h5>
+          <h5 id="footertxt3">24/7 Available Support</h5>
         </div>
       </div>
         </div>
@@ -315,7 +317,10 @@
           <h3>Be in touch</h3>
           <br>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> At itaque temporibus.</p>
-          <input id="plchldr" placeholder="Your Email Adress" type="text"><i class="fa-regular fa-envelope"></i>
+          <div class="form__group field">
+            <input type="input" class="form__field" name="name" id='name'  />
+            <label  for="name" class="form__label">Your Email Adress<i id="formicons" class="fa-regular fa-envelope"></i></label>
+          </div>
           <br>
         </div>
           <div class="allftrtxts">

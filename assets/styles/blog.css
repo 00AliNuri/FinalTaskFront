@@ -15,30 +15,38 @@ body {
 }
 
 #navicons {
+  font-size: 14px;
+  position: relative;
+  left: 40px;
   margin-top: 15px;
   margin-left: 6px;
 }
 
 #navicons2 {
+  position: relative;
+  left: 40px;
   margin-top: 15px;
   margin-left: 15px;
 }
 
 #navtext {
+  position: relative;
+  left: 45px;
   display: inline-block;
 }
 
 #navtext2 {
+  color: #202528;
   display: inline-block;
   position: relative;
-  left: 500px;
-}
-
-.mainnavbar {
-  background-color: transparent;
+  left: 30%;
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .btn {
+  position: relative;
+  left: -20px;
   margin-top: 10px;
   float: right;
   cursor: pointer;
@@ -65,10 +73,17 @@ body {
 }
 
 ul {
+  position: relative;
+  top: 13px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+ul li {
+  position: relative;
+  left: 30px;
 }
 
 li {
@@ -76,16 +91,41 @@ li {
 }
 
 li a {
+  cursor: pointer;
   display: block;
-  color: black;
+  color: rgb(126, 127, 126);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
+li a:hover {
+  color: #202528;
+}
+
 .searchbar {
+  font-weight: 300;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #868e96;
+}
+
+#searchicon {
+  font-size: larger;
+  font-weight: 600;
+  position: relative;
+  left: -30px;
+}
+
+ul input::-moz-placeholder {
+  font-weight: 300;
+  color: #868e96;
+  opacity: 1; /* Firefox */
+}
+
+ul input::placeholder {
+  font-weight: 300;
+  color: #868e96;
+  opacity: 1; /* Firefox */
 }
 
 #mainnavicons {
@@ -105,9 +145,18 @@ li a {
   font-weight: bold;
 }
 
+#angle {
+  cursor: pointer;
+  position: relative;
+  left: 3px;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
 #blogimage {
   max-width: 100%;
   max-height: 100%;
+  margin-top: 20px;
 }
 
 #blogtext {

@@ -98,8 +98,6 @@ document.addEventListener('DOMContentLoaded', () =>
 )
 //Slider
 
-
-
 //Counter
 function updateTime() {
   const customDay = "14";
