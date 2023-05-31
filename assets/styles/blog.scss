@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -94,6 +94,7 @@ li a:hover{
   font-weight: 300;
   border: none;
   border-bottom: 1px solid #868e96;
+  background-color: transparent;
 }
 #searchicon{
   font-size: larger;
@@ -105,6 +106,11 @@ ul input::placeholder {
   font-weight: 300;
   color: #868e96;
   opacity: 1; /* Firefox */
+}
+.mainnavbar{
+  background-color: transparent;
+  position: relative;
+  top: 0px;
 }
 #mainnavicons {
   cursor: pointer;
@@ -129,48 +135,97 @@ ul input::placeholder {
   font-weight: bolder;
 }
 #blogimage {
+  margin-top: -53px;
   max-width: 100%;
   max-height: 100%;
-  margin-top: 20px;
 }
 #blogtext {
-  margin-left: 53px;
-  margin-right: 53px;
+  margin-left: 150px;
+  margin-right: 150px;
   text-align: center;
   margin-top: 30px;
+  font-weight: 400;
+  line-height: 30px;
 }
 #bloghdr {
+  color: #202528;
   text-align: center;
   font-size: 70px;
 }
 #bloglink {
+  display: block;
+  color: #cfb577;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  margin-left: -50px;
 }
 .sct1texts {
   position: absolute;
-  top: 40%;
+  top: 25%;
 }
 
 .grid {
   margin-top: 40px;
-  margin-left: 90px;
+  margin-left: 8%;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
   align-items: start;
 }
 .grid > article img {
+  cursor: pointer;
   max-width: 100%;
-  width: 350px;
+  width: 300px;
+}
+.text h3{
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #202528;
+}
+.text h3:hover{
+  text-decoration: underline;
+}
+.text p{
+  cursor: pointer;
+  color: #cfb577;
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.text p:hover{
+  text-decoration: underline;
+}
+#datetxt{
+  color: #868e96;
+  font-size: 14px;
+  position: relative;
+  top: -38px;
+  left: 190px;
+  letter-spacing: 0px;
+}
+#datetxt:hover{
+  cursor: auto;
+  text-decoration: none;
 }
 #oldtxt {
+  color: #868e96;
+  margin-left: 110px;
   text-align: left;
 }
 #newtxt {
+  margin-top: -19px;
+  color: #868e96;
+  margin-right: 140px;
   text-align: right;
+}
+#newtxt:hover, #oldtxt:hover{
+  transition: 0.2s;
+  cursor: pointer;
+  color: #202528;
 }
 .sct4 {
   color: #202528;
@@ -200,12 +255,12 @@ ul input::placeholder {
 }
 .percentsct {
   position: relative;
-  top: -121px;
+  top: -133px;
   left: 550px;
 }
 .usersct {
   position: relative;
-  top: -177px;
+  top: -200px;
   left: 800px;
 }
 .sctrtxts {
@@ -215,17 +270,17 @@ ul input::placeholder {
 }
 .footertxt1 {
   position: relative;
-  top: -125px;
+  top: -167px;
   left: 150px;
 }
 .footertxt2 {
   position: relative;
-  top: -250px;
+  top: -334px;
   left: 350px;
 }
 .allftrtxts {
   position: relative;
-  top: -153px;
+  top: -186px;
   left: 750px;
 }
 .footerfrsttxtx {
@@ -237,6 +292,7 @@ ul input::placeholder {
   top: -200px;
 }
 #footericons {
+  color: #868e96;
   position: relative;
   top: 25px;
   left: -50px;
@@ -275,8 +331,8 @@ $gray: #9b9b9b;
 }
 #formicons{
   position: relative;
-  top: 25px;
-  left: 140px;
+  top: 30px;
+  left: 130px;
   font-size: x-large;
 }
 .form__field {

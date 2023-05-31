@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -104,7 +104,14 @@ li a:hover {
   color: #202528;
 }
 
+.mainnavbar {
+  background-color: transparent;
+  position: relative;
+  top: 0px;
+}
+
 .searchbar {
+  background-color: transparent;
   font-weight: 300;
   border: none;
   border-bottom: 1px solid #868e96;
@@ -158,13 +165,19 @@ ul input::placeholder {
   max-width: 100%;
   max-height: 100%;
   width: 100%;
-  position: relative;
-  top: 20px;
+  margin-top: -52px;
 }
 
 #links {
   position: relative;
-  left: 40%;
+  left: 10%;
+  display: block;
+  color: #cfb577;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-left: -50px;
 }
 
 .sct1alltexts {
@@ -174,7 +187,10 @@ ul input::placeholder {
 }
 
 #sct1hdr {
-  font-size: 70px;
+  text-align: center;
+  color: #202528;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .sct2alltexts {
@@ -182,26 +198,33 @@ ul input::placeholder {
   margin-left: 16%;
 }
 
+.sct2alltexts h2 {
+  color: #202528;
+}
+
 .sct2txt2 {
   position: relative;
-  top: -113px;
-  left: 265px;
+  top: -135px;
+  left: 300px;
 }
 
 .sct2txt3 {
   position: relative;
-  top: -228px;
-  left: 660px;
+  top: -271px;
+  left: 700px;
 }
 
 #sct2txts {
   margin-top: 10px;
+  color: #868e96;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .map {
   background-color: rgb(232, 237, 239);
   width: 100%;
-  height: 800px;
+  height: 850px;
   position: relative;
   top: -120px;
 }
@@ -210,41 +233,56 @@ iframe {
   max-width: 100%;
   max-height: 100%;
   width: 705px;
-  height: 800px;
+  height: 850px;
   min-height: 500px;
 }
 
 #maphdr {
+  color: #868e96;
   position: relative;
-  top: -700px;
-  left: 870px;
+  top: -790px;
+  left: 730px;
   font-size: 70px;
 }
 
 #maptxts {
+  font-size: 13px;
+  font-weight: 600;
+  color: #202528;
   margin-left: 30px;
   margin-top: 10px;
 }
 
 .allmaptexts {
   position: relative;
-  top: -710px;
+  top: -790px;
   left: 870px;
 }
 
+.allmaptexts hr {
+  border: 0.1px solid #868e96;
+}
+
 #maplocationtext {
+  font-size: 13px;
+  font-weight: 600;
+  color: #202528;
   position: relative;
   top: -77px;
   left: 240px;
 }
 
 #mapemailtext {
+  font-size: 13px;
+  font-weight: 600;
+  color: #202528;
   position: relative;
   top: -97px;
   left: 440px;
 }
 
 #maphdr3 {
+  color: #202528;
   display: block;
   position: relative;
   top: 60px;
@@ -281,7 +319,7 @@ hr {
 
 .form__group1 {
   position: relative;
-  top: -395px;
+  top: -402px;
   left: 950px;
   padding: 15px 0 0;
   margin-top: 10px;
@@ -373,15 +411,23 @@ hr {
   box-shadow: none;
 }
 
+.allfields {
+  position: relative;
+  top: 50px;
+}
+
 #sct3hdr {
+  line-height: 80px;
+  color: #202528;
   margin-left: 90px;
   position: relative;
   top: -60px;
-  font-size: 90px;
-  font-weight: 900;
+  font-size: 80px;
+  font-weight: 700;
 }
 
 #sct3icons {
+  cursor: pointer;
   margin-top: 15px;
   margin-left: 20px;
   position: relative;
@@ -441,13 +487,13 @@ hr {
 
 .percentsct {
   position: relative;
-  top: -121px;
+  top: -133px;
   left: 550px;
 }
 
 .usersct {
   position: relative;
-  top: -177px;
+  top: -200px;
   left: 800px;
 }
 
@@ -459,19 +505,19 @@ hr {
 
 .footertxt1 {
   position: relative;
-  top: -125px;
+  top: -167px;
   left: 150px;
 }
 
 .footertxt2 {
   position: relative;
-  top: -250px;
+  top: -334px;
   left: 350px;
 }
 
 .allftrtxts {
   position: relative;
-  top: -153px;
+  top: -186px;
   left: 750px;
 }
 
@@ -486,6 +532,7 @@ hr {
 }
 
 #footericons {
+  color: #868e96;
   position: relative;
   top: 25px;
   left: -50px;
@@ -520,8 +567,6 @@ hr {
 
 .form__group5 {
   position: relative;
-  top: 1px;
-  left: 1px;
   padding: 15px 0 0;
   margin-top: 10px;
   width: 50%;
@@ -529,8 +574,8 @@ hr {
 
 #formicons {
   position: relative;
-  top: 25px;
-  left: 140px;
+  top: 30px;
+  left: 130px;
   font-size: x-large;
 }
 
@@ -557,7 +602,7 @@ hr {
   color: #9b9b9b;
 }
 
-.form__field:focus {
+.form__field5:focus {
   padding-bottom: 6px;
   font-weight: 700;
   border-width: 3px;
@@ -565,7 +610,7 @@ hr {
      border-image: linear-gradient(to right, #202528, #202528);
   border-image-slice: 1;
 }
-.form__field:focus ~ .form__label {
+.form__field5:focus ~ .form__label {
   position: absolute;
   top: 0;
   display: block;

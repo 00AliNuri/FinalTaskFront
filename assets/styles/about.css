@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -162,16 +162,21 @@ ul input::placeholder {
 #sct1hdr {
   margin-top: 70px;
   margin-left: 400px;
-  font-size: 20px;
+  font-size: 17px;
+  color: rgb(188, 173, 119);
+  letter-spacing: 5px;
+  font-weight: 600;
 }
 
 #sct1hdr2 {
+  color: rgb(33, 37, 41);
   margin-top: 10px;
   margin-left: 400px;
   font-size: 70px;
 }
 
 #sct1txt {
+  color: #868e96;
   margin-top: 20px;
   margin-left: 400px;
   font-size: 20px;
@@ -197,11 +202,15 @@ ul input::placeholder {
 }
 
 #sct2hdr {
+  color: rgb(188, 173, 119);
   margin-left: 400px;
-  font-size: 20px;
+  font-size: 17px;
+  letter-spacing: 5px;
+  font-weight: 600;
 }
 
 #sct2hdr2 {
+  color: rgb(33, 37, 41);
   margin-top: 10px;
   margin-left: 400px;
   font-size: 70px;
@@ -213,20 +222,25 @@ ul input::placeholder {
 }
 
 #sct3hdr {
+  color: #868e96;
   margin-left: 550px;
-  font-size: 20px;
+  font-size: 17px;
+  letter-spacing: 8px;
+  font-weight: 600;
 }
 
 #sct3hdr2 {
-  margin-top: 10px;
+  color: rgb(33, 37, 41);
   margin-left: 550px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #sct2txt {
+  color: #868e96;
   margin-top: 20px;
   margin-left: 550px;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .sct3alltexts {
@@ -238,29 +252,35 @@ ul input::placeholder {
   float: right;
   max-width: 100%;
   max-height: 100%;
-  width: 400px;
+  width: 450px;
   margin-left: 90px;
-  margin-top: 30px;
+  margin-top: -21px;
   position: relative;
   top: -125px;
   left: -200px;
 }
 
 #sct4hdr {
+  color: #868e96;
+  letter-spacing: 10px;
   margin-left: 90px;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 #sct4hdr2 {
+  color: #202528;
   margin-top: 10px;
   margin-left: 90px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #sct4txt {
+  color: #868e96;
   margin-top: 20px;
   margin-left: 90px;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .sct4alltexts {
@@ -269,23 +289,27 @@ ul input::placeholder {
 }
 
 .sct5 {
-  background-color: rgb(232, 236, 238);
+  margin-top: 75px;
+  background: rgb(249, 248, 250);
   width: 100%;
-  height: 400px;
+  height: 520px;
 }
 
 #sct5txt {
+  color: #868e96;
   margin-top: 100px;
   text-align: left;
-  font-size: 20px;
   margin-left: 150px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 #sct5hdr {
+  color: #202528;
   position: relative;
   top: 80px;
   margin-left: 150px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .sct5alltexts {
@@ -295,25 +319,49 @@ ul input::placeholder {
   left: 700px;
 }
 
+.sct5alltexts h3 {
+  letter-spacing: 5px;
+  font-size: 23px;
+  color: #202528;
+}
+
+.sct5alltexts p {
+  line-height: 25px;
+  color: #868e96;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sct5halftexts {
+  position: relative;
+  top: -100px;
+}
+
 .scndtxt {
   position: relative;
-  top: -76px;
-  left: 400px;
+  top: -135px;
+  left: 315px;
 }
 
 .thrdtxt {
   position: relative;
-  top: -76px;
-  left: 400px;
+  top: -135px;
+  left: 315px;
+}
+
+.sct6 {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 #sct6img {
-  margin-top: 60px;
-  margin-left: 100px;
+  position: relative;
+  top: 90px;
+  margin-left: 60px;
   max-width: 100%;
   max-height: 100%;
   border-radius: 700px;
-  width: 300px;
+  width: 350px;
 }
 
 .sct6alltexts {
@@ -322,13 +370,26 @@ ul input::placeholder {
   left: 490px;
 }
 
+.sct6alltexts h1 {
+  line-height: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  font-weight: 100;
+  color: #202528;
+}
+
 #sct6authtext {
-  margin-top: 15px;
-  letter-spacing: 2px;
+  color: rgb(188, 173, 119);
+  margin-top: 25px;
+  letter-spacing: 4px;
+  font-weight: 600;
 }
 
 #sct6txt {
   margin-top: 25px;
+  color: #868e96;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .grid {
@@ -348,13 +409,27 @@ ul input::placeholder {
   padding: 0 20px 20px;
 }
 
+.text h3 {
+  color: #202528;
+  font-size: 17px;
+}
+
+.text p {
+  margin-left: 10px;
+  color: #868e96;
+  font-size: 14px;
+}
+
 #sct7hdr {
+  color: rgb(207, 181, 119);
   margin-left: 350px;
   font-size: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 9px;
+  font-weight: 600;
 }
 
 #sct7hdr2 {
+  color: #202528;
   margin-top: 25px;
   margin-left: 350px;
   font-size: 70px;
@@ -363,23 +438,49 @@ ul input::placeholder {
 #sct7txt {
   margin-top: 25px;
   margin-left: 350px;
+  color: #868e96;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
 }
 
 .sct7 {
   margin-top: -180px;
 }
 
-.sct8 {
-  margin-top: 70px;
-  background-color: rgb(232, 236, 238);
-  width: 100%;
-  height: 300px;
+.section-padding {
+  padding: 45px 0;
 }
 
-#sct8img {
-  margin-top: 100px;
-  position: relative;
-  left: 12%;
+.brand-carousel {
+  background: rgb(249, 248, 250);
+  margin-top: 5%;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.owl-dot {
+  display: inline-block;
+  height: 7px !important;
+  width: 7px !important;
+  background-color: rgb(199, 198, 200) !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.owl-dot.active {
+  transition: 0.3s;
+  height: 11px !important;
+  width: 11px !important;
+  background-color: rgb(188, 173, 119) !important;
+}
+
+.single-logo {
+  margin-top: 10%;
   max-width: 100%;
   max-height: 100%;
   width: 100px;
@@ -387,15 +488,28 @@ ul input::placeholder {
 }
 
 #sct9hdr {
-  margin-top: 30px;
+  margin-top: 80px;
   text-align: center;
+  color: #202528;
+  font-size: 30px;
 }
 
 #sct9txt {
-  margin-top: 20px;
-  margin-left: 140px;
+  margin-top: 80px;
+  margin-left: 250px;
   display: inline-block;
-  font-size: 17px;
+  color: #868e96;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#sct9txt2 {
+  margin-top: 80px;
+  margin-left: 100px;
+  display: inline-block;
+  color: #868e96;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .sct10 {
@@ -403,6 +517,10 @@ ul input::placeholder {
   width: 100%;
   background-color: rgb(249, 248, 250);
   height: 250px;
+}
+
+.sct10 h5 {
+  color: #202528;
 }
 
 #left {
@@ -429,13 +547,13 @@ ul input::placeholder {
 
 .percentsct {
   position: relative;
-  top: -121px;
+  top: -133px;
   left: 550px;
 }
 
 .usersct {
   position: relative;
-  top: -177px;
+  top: -200px;
   left: 800px;
 }
 
@@ -447,20 +565,24 @@ ul input::placeholder {
 
 .footertxt1 {
   position: relative;
-  top: -125px;
+  top: -167px;
   left: 150px;
 }
 
 .footertxt2 {
   position: relative;
-  top: -250px;
+  top: -334px;
   left: 350px;
 }
 
 .allftrtxts {
   position: relative;
-  top: -153px;
+  top: -186px;
   left: 750px;
+}
+
+.allftrtxts h3 {
+  color: #202528;
 }
 
 .footerfrsttxtx {
@@ -474,6 +596,7 @@ ul input::placeholder {
 }
 
 #footericons {
+  color: #868e96;
   position: relative;
   top: 25px;
   left: -50px;
@@ -515,8 +638,8 @@ ul input::placeholder {
 
 #formicons {
   position: relative;
-  top: 25px;
-  left: 140px;
+  top: 30px;
+  left: 130px;
   font-size: x-large;
 }
 

@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -71,7 +71,7 @@ ul {
   padding: 0;
   overflow: hidden;
 }
-ul li{
+ul li {
   position: relative;
   left: 30px;
 }
@@ -83,12 +83,12 @@ li {
 li a {
   cursor: pointer;
   display: block;
-  color: rgba(126,127,126,255);
+  color: rgba(126, 127, 126, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover{
+li a:hover {
   color: #202528;
 }
 .searchbar {
@@ -96,7 +96,7 @@ li a:hover{
   border: none;
   border-bottom: 1px solid #868e96;
 }
-#searchicon{
+#searchicon {
   font-size: larger;
   font-weight: 600;
   position: relative;
@@ -122,7 +122,7 @@ ul input::placeholder {
   font-size: 18px;
   font-weight: bold;
 }
-#angle{
+#angle {
   cursor: pointer;
   position: relative;
   left: 3px;
@@ -136,14 +136,19 @@ ul input::placeholder {
 #sct1hdr {
   margin-top: 70px;
   margin-left: 400px;
-  font-size: 20px;
+  font-size: 17px;
+  color: rgba(188, 173, 119, 255);
+  letter-spacing: 5px;
+  font-weight: 600;
 }
 #sct1hdr2 {
+  color: rgba(33, 37, 41, 255);
   margin-top: 10px;
   margin-left: 400px;
   font-size: 70px;
 }
 #sct1txt {
+  color: #868e96;
   margin-top: 20px;
   margin-left: 400px;
   font-size: 20px;
@@ -165,10 +170,14 @@ ul input::placeholder {
   margin-top: 30px;
 }
 #sct2hdr {
+  color: rgba(188, 173, 119, 255);
   margin-left: 400px;
-  font-size: 20px;
+  font-size: 17px;
+  letter-spacing: 5px;
+  font-weight: 600;
 }
 #sct2hdr2 {
+  color: rgba(33, 37, 41, 255);
   margin-top: 10px;
   margin-left: 400px;
   font-size: 70px;
@@ -178,18 +187,23 @@ ul input::placeholder {
   top: -85px;
 }
 #sct3hdr {
+  color: #868e96;
   margin-left: 550px;
-  font-size: 20px;
+  font-size: 17px;
+  letter-spacing: 8px;
+  font-weight: 600;
 }
 #sct3hdr2 {
-  margin-top: 10px;
+  color: rgba(33, 37, 41, 255);
   margin-left: 550px;
-  font-size: 40px;
+  font-size: 30px;
 }
 #sct2txt {
+  color: #868e96;
   margin-top: 20px;
   margin-left: 550px;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 600;
 }
 .sct3alltexts {
   position: relative;
@@ -199,47 +213,57 @@ ul input::placeholder {
   float: right;
   max-width: 100%;
   max-height: 100%;
-  width: 400px;
+  width: 450px;
   margin-left: 90px;
-  margin-top: 30px;
+  margin-top: -21px;
   position: relative;
   top: -125px;
   left: -200px;
 }
 #sct4hdr {
+  color: #868e96;
+  letter-spacing: 10px;
   margin-left: 90px;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 600;
 }
 #sct4hdr2 {
+  color: #202528;
   margin-top: 10px;
   margin-left: 90px;
-  font-size: 40px;
+  font-size: 30px;
 }
 #sct4txt {
+  color: #868e96;
   margin-top: 20px;
   margin-left: 90px;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 600;
 }
 .sct4alltexts {
   position: relative;
   top: -100px;
 }
 .sct5 {
-  background-color: rgba(232, 236, 238, 255);
+  margin-top: 75px;
+  background: rgba(249, 248, 250, 255);
   width: 100%;
-  height: 400px;
+  height: 520px;
 }
 #sct5txt {
+  color: #868e96;
   margin-top: 100px;
   text-align: left;
-  font-size: 20px;
   margin-left: 150px;
+  font-size: 17px;
+  font-weight: 500;
 }
 #sct5hdr {
+  color: #202528;
   position: relative;
   top: 80px;
   margin-left: 150px;
-  font-size: 50px;
+  font-size: 30px;
 }
 .sct5alltexts {
   margin-top: 30px;
@@ -247,35 +271,67 @@ ul input::placeholder {
   top: -270px;
   left: 700px;
 }
+.sct5alltexts h3{
+  letter-spacing: 5px;
+  font-size: 23px;
+  color: #202528;
+}
+.sct5alltexts p{
+  line-height: 25px;
+  color: #868e96;
+  font-size: 15px;
+  font-weight: 500;
+}
+.sct5halftexts{
+  position: relative;
+  top: -100px;
+}
 .scndtxt {
   position: relative;
-  top: -76px;
-  left: 400px;
+  top: -135px;
+  left: 315px;
 }
 .thrdtxt {
   position: relative;
-  top: -76px;
-  left: 400px;
+  top: -135px;
+  left: 315px;
+}
+.sct6{
+  margin-left: 100px;
+  margin-right: 100px;
 }
 #sct6img {
-  margin-top: 60px;
-  margin-left: 100px;
+  position: relative;
+  top: 90px;
+  margin-left: 60px;
   max-width: 100%;
   max-height: 100%;
   border-radius: 700px;
-  width: 300px;
+  width: 350px;
 }
 .sct6alltexts {
   position: relative;
   top: -280px;
   left: 490px;
 }
+.sct6alltexts h1{
+  line-height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight: 100;
+  color: #202528;
+}
 #sct6authtext {
-  margin-top: 15px;
-  letter-spacing: 2px;
+  color: rgba(188,173,119,255);
+  margin-top: 25px;
+  letter-spacing: 4px;
+  font-weight: 600;
 }
 #sct6txt {
   margin-top: 25px;
+  color: #868e96;
+  font-size: 15px;
+  font-weight: 500;
 }
 .grid {
   margin-top: 50px;
@@ -292,12 +348,24 @@ ul input::placeholder {
 .text {
   padding: 0 20px 20px;
 }
+.text h3{
+  color: #202528;
+  font-size: 17px;
+}
+.text p{
+  margin-left: 10px;
+  color: #868e96;
+  font-size: 14px;
+}
 #sct7hdr {
+  color: rgba(207,181,119,255);
   margin-left: 350px;
   font-size: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 9px;
+  font-weight: 600;
 }
 #sct7hdr2 {
+  color: #202528;
   margin-top: 25px;
   margin-left: 350px;
   font-size: 70px;
@@ -305,40 +373,79 @@ ul input::placeholder {
 #sct7txt {
   margin-top: 25px;
   margin-left: 350px;
+  color: #868e96;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
 }
 .sct7 {
   margin-top: -180px;
 }
-.sct8 {
-  margin-top: 70px;
-  background-color: rgba(232, 236, 238, 255);
-  width: 100%;
-  height: 300px;
+
+.section-padding {
+  padding: 45px 0;
 }
-#sct8img {
-  margin-top: 100px;
-  position: relative;
-  left: 12%;
+.brand-carousel {
+  background: rgba(249, 248, 250, 255);
+  margin-top: 5%;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 4%;
+}
+.owl-dot {
+  display: inline-block;
+  height: 7px !important;
+  width: 7px !important;
+  background-color: rgba(199, 198, 200, 255) !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.owl-dot.active {
+  transition: 0.3s;
+  height: 11px !important;
+  width: 11px !important;
+  background-color: rgba(188, 173, 119, 255) !important;
+}
+.single-logo {
+  margin-top: 10%;
   max-width: 100%;
   max-height: 100%;
   width: 100px;
   margin-left: 100px;
 }
+
 #sct9hdr {
-  margin-top: 30px;
+  margin-top: 80px;
   text-align: center;
+  color: #202528;
+  font-size: 30px;
 }
 #sct9txt {
-  margin-top: 20px;
-  margin-left: 140px;
+  margin-top: 80px;
+  margin-left: 250px;
   display: inline-block;
-  font-size: 17px;
+  color: #868e96;
+  font-size: 13px;
+  font-weight: 500;
+}
+#sct9txt2 {
+  margin-top: 80px;
+  margin-left: 100px;
+  display: inline-block;
+  color: #868e96;
+  font-size: 13px;
+  font-weight: 500;
 }
 .sct10 {
   margin-top: 100px;
   width: 100%;
   background-color: rgba(249, 248, 250, 255);
   height: 250px;
+}
+.sct10 h5{
+  color: #202528;
 }
 #left {
   text-align: left;
@@ -361,12 +468,12 @@ ul input::placeholder {
 }
 .percentsct {
   position: relative;
-  top: -121px;
+  top: -133px;
   left: 550px;
 }
 .usersct {
   position: relative;
-  top: -177px;
+  top: -200px;
   left: 800px;
 }
 .sctrtxts {
@@ -376,18 +483,21 @@ ul input::placeholder {
 }
 .footertxt1 {
   position: relative;
-  top: -125px;
+  top: -167px;
   left: 150px;
 }
 .footertxt2 {
   position: relative;
-  top: -250px;
+  top: -334px;
   left: 350px;
 }
 .allftrtxts {
   position: relative;
-  top: -153px;
+  top: -186px;
   left: 750px;
+}
+.allftrtxts h3{
+  color: #202528;
 }
 .footerfrsttxtx {
   margin-top: 100px;
@@ -398,6 +508,7 @@ ul input::placeholder {
   top: -200px;
 }
 #footericons {
+  color: #868e96;
   position: relative;
   top: 25px;
   left: -50px;
@@ -406,20 +517,20 @@ ul input::placeholder {
 .footersct {
   color: #202528;
 }
-#footertxt3{
+#footertxt3 {
   font-weight: 400;
   color: #868e96;
 }
-.footerfrsttxtx h3{
+.footerfrsttxtx h3 {
   font-size: 16px;
   letter-spacing: 2px;
 }
-.footerfrsttxtx p{
+.footerfrsttxtx p {
   color: #868e96;
   font-weight: 500;
   font-size: 13px;
 }
-.allftrtxts p{
+.allftrtxts p {
   color: #868e96;
   font-weight: 400;
   font-size: 15px;
@@ -434,10 +545,10 @@ $gray: #9b9b9b;
   margin-top: 10px;
   width: 50%;
 }
-#formicons{
+#formicons {
   position: relative;
-  top: 25px;
-  left: 140px;
+  top: 30px;
+  left: 130px;
   font-size: x-large;
 }
 .form__field {
@@ -463,7 +574,7 @@ $gray: #9b9b9b;
   color: $gray;
 }
 
-.form__field:focus{
+.form__field:focus {
   ~ .form__label {
     position: absolute;
     top: 0;
