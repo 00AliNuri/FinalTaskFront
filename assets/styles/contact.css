@@ -127,13 +127,13 @@ li a:hover {
 ul input::-moz-placeholder {
   font-weight: 300;
   color: #868e96;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
 
 ul input::placeholder {
   font-weight: 300;
   color: #868e96;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
 
 #mainnavicons {
