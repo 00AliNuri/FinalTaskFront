@@ -108,6 +108,7 @@ ul input::placeholder {
   opacity: 1; /* Firefox */
 }
 #mainnavicons {
+  color: #202528;
   cursor: pointer;
   margin-left: 13px;
   float: right;
@@ -123,6 +124,7 @@ ul input::placeholder {
   font-weight: bold;
 }
 #angle{
+  color: #202528;
   cursor: pointer;
   position: relative;
   left: 3px;
@@ -220,7 +222,7 @@ ul input::placeholder {
 }
 .main .prev {
   position: fixed;
-  color: black;
+  color: #202528;
   top: 45%;
   left: 5%;
   transform: translateY(-50%);
@@ -237,7 +239,7 @@ ul input::placeholder {
 }
 .main .next {
   position: fixed;
-  color: black;
+  color: #202528;
   top: 45%;
   right: 5%;
   transform: translateY(-50%);
@@ -382,6 +384,7 @@ ul input::placeholder {
   left: -110px;
 }
 #sct2hdr3 {
+  color: #202528;
   margin-left: 25px;
   font-size: 30px;
 }
@@ -756,6 +759,7 @@ ul input::placeholder {
   top: -200px;
 }
 #footericons {
+  color: #868e96;
   position: relative;
   top: 25px;
   left: -50px;
